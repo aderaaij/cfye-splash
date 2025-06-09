@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
+  font-family: "Courier New", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+.loading {
+  position: absolute;
+  color: #fff;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  opacity: 0.7;
+}
